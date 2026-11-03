@@ -7,7 +7,6 @@ From messy app records to a reproducible view of app performance patterns.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pPh43M59JUzmIp6kPgybzvLeL_mE0lCg)
 ![Python](https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white)
-![Validation](https://img.shields.io/badge/Validation-2_repeat_runs_passed-168A62?style=flat-square)
 ![Records](https://img.shields.io/badge/Clean_records-10%2C357-2E86AB?style=flat-square)
 ![PCA](https://img.shields.io/badge/PCA-95.08%25_variance-E4572E?style=flat-square)
 
@@ -163,8 +162,3 @@ Colour compares app types and the five largest categories. This 2D view represen
 <img width="2400" height="900" alt="PCA projections by app type and category" src="https://github.com/user-attachments/assets/fac13570-a630-4d36-a0cf-03f2d71fce77" />
 
 
-### Colab verification screenshot
-
-Actual notebook output after the two isolated GitHub-script runs.
-
-<img width="467" height="454" alt="Colab reproducibility validation screenshot" src="https://github.com/user-attachments/assets/590a496a-107a-46f3-aff3-1eae4888ce16" />
