@@ -148,7 +148,7 @@ with open("week6_feature_report.txt", "w", encoding="utf-8") as f:
     f.write("Skewness before transformation:\n" + skew_before.to_string() + "\n\n")
     f.write("Skewness after log1p transformation:\n" + skew_after.to_string() + "\n\n")
     f.write(f"Scaled columns: {scale_cols}\n\n")
-    f.write(f"Label encoded: Type -> {{c: int(i) for i, c in enumerate(le.classes_)}}\n")
+    f.write("Label encoded: Type -> " + str({str(c): int(i) for i, c in enumerate(le.classes_)}) + "\n")
     f.write("One-hot encoded: Content Rating, Category (top 10 + OTHER)\n")
 
 df.to_csv("googleplaystore_engineered.csv", index=False)
